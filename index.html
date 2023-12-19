@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list__item">
+            <a class="menu__list__link" href="#">1 cезон</a>
+          </li>
+          <li class="menu__list__item">
+            <a class="menu__list__link" href="#">2 cезон</a>
+          </li>
+          <li class="menu__list__item">
+            <a class="menu__list__link" href="#">3 cезон</a>
+          </li>
+          <li class="menu__list__item">
+            <a class="menu__list__link" href="#">4 cезон</a>
+          </li>
+          <li class="menu__list__item">
+            <a class="menu__list__link" href="#">5 cезон</a>
+          </li>
+          <li class="menu__list__item">
+            <a class="menu__list__link" href="#">6 cезон</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="logo">
+        <img class="logo__img" src="./img/main-logo.png" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <section class="about">
+        <h2 class="about__header">Про серіал</h2>
+        <div class="about__block container">
+          <div class="about__block container">
+            <ul class="about__list">
+              <li class="about__list__item">
+                <p>Жанр</p>
+                <span class="mb-10">Історична драма </span>
+              </li>
+              <li class="about__list__item">
+                <p>Сезонів</p>
+                <span class="mb-10">6 </span>
+              </li>
+              <li class="about__list__item">
+                <p>Тривалість серії</p>
+                <span class="mb-10">45 хвилин </span>
+              </li>
+              <li class="about__list__item">
+                <p>На екранах</p>
+                <span class="mb-10">З 3 березня 2013 року по сьогодні </span>
+              </li>
+            </ul>
+            <div class="about__des">
+              <p>
+                Вікінги – шикарний історичний серіал, один із найкращих у своєму
+                жанрі, шоу може похвалитися величезною фан-базою, а також тим,
+                що пробудив інтерес до історії та відродив моду на вікінгів.
+              </p>
+              <p>
+                «Вікінги» створені на замовлення каналу американського каналу
+                History, проте працювали над ним канадці та ірландці. Серіал
+                вражає масштабними сценами битв, добротним та глибоким
+                сценарієм, а також максимальною увагою до історичної доби.
+                Автори серіалу витратили купу часу та грошей (бюджет першого
+                сезону - $40 млн, далі суми зросли) на те, щоб вікінги та їх
+                сучасники виглядали у шоу так, якими вони були свого часу – VIII
+                – IX століттях нашої ери. З іншого боку – відсутність точних
+                історичних фактів та (напів)легендарність багатьох подій
+                дозволили авторам серіалу вільне трактування багатьох подій.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="popup js--popup">
+        <div class="popup__content">
+          <iframe
+            class="popup__content__iframe"
+            src="https://www.youtube.com/embed/ny9Fmx-rUKQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <section class="ragnar">
+        <div class="ragnar__block container">
+          <h3 class="ragnar__text"><span>The Storm</span> Is Coming...</h3>
+          <div class="ragnar__youtube">
+            <div class="ragnar__youtube__btn js--btn--popup"></div>
+            <p class="ragnar__youtube__text">Подивитись трейлер серіалу</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="popup__season js--popup--season">
+        <div class="popup__body">
+          <iframe
+            class="popup__body__iframe js--popup-secon--video"
+            src=""
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <section class="seasons">
+        <div class="seasons__block container">
+          <h2 class="seasons__block__title">Всі сезони</h2>
+          <div class="seasons__block__list">
+            <div
+              class="seasons__block__list__item js--popup--video"
+              data-id="https://www.youtube.com/embed/9GgxinPwAGc?si=cEkMcnw-x9pnrcoC"
+            >
+              <img class="season__img" src="./img/s1.jpg" alt="" />
+              <div class="btn__view js--season">
+                <p class="btn__view__text js--btn--season">Дивитись</p>
+              </div>
+            </div>
+            <div
+              class="seasons__block__list__item js--popup--video"
+              data-id="https://www.youtube.com/embed/x6rLjCrA5QQ?si=8I-Drpc9sj19f3yG"
+            >
+              <img class="season__img" src="./img/s2.jpg" alt="" />
+              <div class="btn__view js--season">
+                <p class="btn__view__text">Дивитись</p>
+              </div>
+            </div>
+            <div
+              class="seasons__block__list__item js--popup--video"
+              data-id="https://www.youtube.com/embed/lE6YTts8cgY?si=TKLiuA9XMQ8CxS0l"
+            >
+              <img class="season__img" src="./img/s3.png" alt="" />
+              <div class="btn__view js--season">
+                <p class="btn__view__text">Дивитись</p>
+              </div>
+            </div>
+            <div class="seasons__block__list__item js--popup--video" data-id="">
+              <img class="season__img" src="./img/s4.png" alt="" />
+              <div class="btn__view js--season">
+                <p class="btn__view__text">Дивитись</p>
+              </div>
+            </div>
+            <div class="seasons__block__list__item js--popup--video" data-id="">
+              <img class="season__img" src="./img/s5.png" alt="" />
+              <div class="btn__view js--season">
+                <p class="btn__view__text">Дивитись</p>
+              </div>
+            </div>
+            <div class="seasons__block__list__item js--popup--video" data-id="">
+              <img class="season__img" src="./img/s6.png" alt="" />
+              <div class="btn__view js--season">
+                <p class="btn__view__text">Дивитись</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="heroes">
+        <div class="heroes__block container">
+          <h2 class="heroes__block__title">Головні герої</h2>
+
+          <div class="slider">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./img/slider1.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/slider2.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/slider3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="">
+                <img class="swiper-button-next" src="./img/next.png" alt="" />
+              </div>
+              <div class="">
+                <img class="swiper-button-prev" src="./img/prev.png" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide des-slide">
+                  <p class="heroes__block__slider__des__title">РАГНАР</p>
+                  <p class="heroes__block__slider__des__text">
+                    Ра́ґнар Ло́дброк (давньоскан. Ragnarr Loðbrók, ? — 865) —
+                    легендарний вікінг, герой скандинавського епосу. Згідно зі
+                    скандинавською поезією та сагами — легендарний конунг
+                    Свеаланда (770—785) та Данії[da] (?—865). У IX столітті
+                    здійснив багато військових виправ до Франкії та
+                    англо-саксонської Англії. Національний герой у країнах
+                    Скандинавського півострова. Чоловік Лаґерти і Аслауґ. Батько
+                    Бйорна Залізнобокого, Івара, Ґвітсерка, Роґнвальда.
+                  </p>
+                </div>
+                <div class="swiper-slide des-slide">
+                  <p class="heroes__block__slider__des__title">ФЛОКІ</p>
+                  <p class="heroes__block__slider__des__text">
+                    Флокі Вільгердарсон або Флокі, син Вільгерда (ісл. Flóki
+                    Vilgerðarson; жив у X столітті) — норвезький мореплавець та
+                    дослідник; перший норвежець, який побував у Ісландії. Книга
+                    про заселення Ісландії називає його "великим вікінгом".
+                  </p>
+                </div>
+                <div class="swiper-slide des-slide">
+                  <p class="heroes__block__slider__des__title">ЛАГЕРТА</p>
+                  <p class="heroes__block__slider__des__text">
+                    Лагерта (Ladgerda, Ladgertha або Lagertha) — північна
+                    войовниця і піратка, володарка земель у Норвегії та перша
+                    дружина данського героя — вікінга Раґнара Лодброка, який,
+                    імовірно, жив у IX столітті. Хоча прямих доказів їхнього
+                    існування немає. Відома за хроніками Саксона Граматика XII
+                    століття. Деякі автори пов'язують її з богинею Торґерд
+                    (Þorgerðr Hölgabrúðr) або Валькірією.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
